@@ -1,0 +1,89 @@
+body {
+    background-color:     rgb(115, 165, 202);;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+}
+
+.navbar {
+    background-color: rgb(255, 233, 169);
+    padding: 15px;
+    text-align: left;
+}
+
+.navbar a {
+    color:  rgb(115, 165, 202);
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'EB Garamond', sans-serif;
+    
+}
+
+.navbar a:hover {
+    background-color: gray;
+}
+
+
+h1 {
+    color:  rgb(255, 147, 62); 
+  font-family: 'BBH Bogle', sans-serif;
+  font-size: 60px;
+
+}
+
+
+p {
+    color: black;
+    font-size: 18px;
+    font-family: 'EB Garamond', sans-serif;
+}
+
+p1{
+    color: black;
+    font-size: 14px;
+    font-family: 'EB Garamond', sans-serif;
+
+}
+
+.image-row {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-row img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+
+    
+}
+.content-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px;
+}
+
+.description {
+    flex: 1;
+}
+
+.photo {
+    flex: 1;
+    text-align: right;
+}
+
+.photo img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
